@@ -1,0 +1,110 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnata
+A -gnatwa
+A -gnata
+A -g
+P SS ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U tests%b		tests.adb		90c8c59a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W tests_console%s	tests_console.adb	tests_console.ali
+W tests_main%s		tests_main.adb		tests_main.ali
+W tests_person%s	tests_person.adb	tests_person.ali
+W tests_tree_bin%s	tests_tree_bin.adb	tests_tree_bin.ali
+W tests_utils%s		tests_utils.adb		tests_utils.ali
+W tests_utils_gen%s	tests_utils_gen.adb	tests_utils_gen.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-assert.ads		20150130152538 a1febc19 ada.assertions%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strfix.ads		20101008130255 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D console.ads		20210111140926 74beb57d console%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D list_tree_gen.ads	20210112083201 f5bb228c list_tree_gen%s
+D main.ads		20210113084246 2b446b8f main%s
+D p_list_gen.ads	20210112073020 35184566 p_list_gen%s
+D person.ads		20210111144711 757dc077 person%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-assert.ads		20140225151544 cd8d2c94 system.assertions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-pooglo.ads		20151118103153 ede33ef8 system.pool_global%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D tests.adb		20210113093237 d4807ef3 tests%b
+D tests_console.ads	20210113075423 8914ce33 tests_console%s
+D tests_main.ads	20210113084251 40113bec tests_main%s
+D tests_person.ads	20210113075731 10953ce8 tests_person%s
+D tests_tree_bin.ads	20210113075533 ee6ff0bc tests_tree_bin%s
+D tests_utils.ads	20210113075300 fb53b482 tests_utils%s
+D tests_utils_gen.ads	20210113075903 b089c3b4 tests_utils_gen%s
+D tree_bin.ads		20210112081919 1689b2df tree_bin%s
+D tree_gen.ads		20210112083101 92f8f218 tree_gen%s
+D utils.ads		20210111140017 d2698475 utils%s
+D utils_gen.ads		20210113070314 a50e5e2b utils_gen%s
+X 1 ada.ads
+16K9*Ada 20e8 48|4r6 4r23
+X 16 a-textio.ads
+49K13*Text_IO 471e16 48|4w10 4r27
+166U14*New_Line 48|18s5 21s5 27s5 33s5 39s5 45s5 51s5 58s5 60s5
+206U14*Get 48|24s5 30s5 36s5 42s5 48s5 54s5
+263U14*Put_Line 48|16s5 17s5 19s5 22s5 23s5 28s5 29s5 34s5 35s5 40s5 41s5
+. 46s5 47s5 52s5 53s5 59s5
+X 48 tests.adb
+13U11*tests 13b11 61t4
+14e5 c{character} 24m9 30m9 36m9 42m9 48m9 54m9
+X 49 tests_console.ads
+7K9*tests_console 48|8w6 8r25 49|9e4
+8U15*run_tests_console 48|43s5
+X 50 tests_main.ads
+10K9*tests_main 48|10w6 10r22 50|12e4
+11U15*run_tests_main 48|55s5
+X 51 tests_person.ads
+7K9*tests_person 48|7w6 7r24 51|9e4
+8U15*run_tests_person 48|37s5
+X 52 tests_tree_bin.ads
+9K9*tests_tree_bin 48|6w6 6r26 52|11e4
+10U15*run_tests_tree_bin 48|31s5
+X 53 tests_utils.ads
+6K9*tests_utils 48|5w6 5r23 53|8e4
+7U15*run_tests_utils 48|25s5
+X 54 tests_utils_gen.ads
+11K9*tests_utils_gen 48|9w6 9r27 54|13e4
+12U15*run_tests_utils_gen 48|49s5
+

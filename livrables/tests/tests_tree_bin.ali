@@ -1,0 +1,197 @@
+V "GNAT Lib v7"
+A -gnata
+A -gnatwa
+A -gnata
+A -g
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U tests_tree_bin%b	tests_tree_bin.adb	57fb4c55 NE OO PK IL
+Z ada%s			ada.ads			ada.ali
+Z ada.characters%s	a-charac.ads		a-charac.ali
+Z ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z utils%s		utils.adb		utils.ali
+
+U tests_tree_bin%s	tests_tree_bin.ads	1da45c09 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.assertions%s	a-assert.adb		a-assert.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W tree_bin%s		tree_bin.adb		tree_bin.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-assert.ads		20150130152538 a1febc19 ada.assertions%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-assert.ads		20140225151544 cd8d2c94 system.assertions%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20140225151544 7e642b20 system.concat_4%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-memory.ads		20160622104833 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D tests_tree_bin.ads	20210113075533 ee6ff0bc tests_tree_bin%s
+D tests_tree_bin.adb	20210113075544 b994bce9 tests_tree_bin%b
+D tree_bin.ads		20210112081919 1689b2df tree_bin%s
+D tree_bin.adb		20210113074218 3af6ebcd tree_bin%b
+D utils.ads		20210111140017 d2698475 utils%s
+X 1 ada.ads
+16K9*Ada 20e8 46|2r6 2r26 3r6 3r31 4r6 4r33 5r6 5r23 6r6 6r34
+X 2 a-assert.ads
+50K13*Assertions 66e19 46|2w10 2r30
+63U14*Assert 47|38s9 43s9 45s9 50s9 52s9 58s9 60s9 66s9 68s9 74s9 76s9 84s9
+. 91s9 94s9 103s9 106s9 116s9 119s9 132s9 136s9 140s9 148s9 156s9 164s9 171s9
+. 173s9 180s9
+X 3 a-charac.ads
+16K13*Characters 18e19 46|6r10 6r38
+X 4 a-chlat1.ads
+18K24*Latin_1 296e27 46|6w21 6r49
+35e4*LF{character} 47|164r23 164r35
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 46|3w10 3r35
+X 11 a-string.ads
+16K13*Strings 35e16 46|4r10 4r37
+X 13 a-strunb.ads
+76K21*Unbounded 490e26 46|4w18 4r45
+79R9*Unbounded_String<6|43R9> 474e14 47|13r77 34r14
+94V13*To_Unbounded_String{79R9} 47|15s20
+100V13*To_String{string} 47|164s40
+X 15 a-textio.ads
+49K13*Text_IO 471e16 46|5w10 5r27
+166U14*New_Line 47|96s9 108s9 121s9 142s9 150s9 158s9 166s9 175s9 182s9 185s9
+263U14*Put_Line 47|39s9 46s9 53s9 61s9 69s9 78s9 86s9 97s9 109s9 122s9 143s9
+. 151s9 159s9 167s9 176s9 183s9 186s9
+X 17 a-tiinio.ads
+66U14*Put 47|9s13[8|18]
+X 21 system.ads
+67M9*Address
+X 32 s-memory.ads
+53V13*Alloc{21|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{21|67M9} 105i<c,__gnat_realloc>22
+X 38 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 46 tests_tree_bin.ads
+9K9*tests_tree_bin 11e4 47|3b14 188t4
+10U15*run_tests_tree_bin 47|4b15 187l9 187t27
+X 47 tests_tree_bin.adb
+5i9 CPT{integer} 10m13 10r20 89m9 91r16 92m9 94r16 101m9 103r16 104m9 106r16
+. 113m9 116r16 117m9 119r16 130m9 132r16 134m9 136r16 138m9 140r16
+7U19 show_int 7b19 7>28 7>44 11l13 11t21 23r70
+7i28 el{integer} 9r17
+7b44 parent{boolean}
+13V18 stringify_int{13|79R9} 13b18 13>32 13>48 16l13 16t26 27r20
+13i32 el{integer} 15r54
+13i48 ancestor{integer}
+18V18 id_int{integer} 18b18 18>25 21l13 21t19 23r87
+18i25 el{integer} 20r20
+23K17 Tree_Int[48|11] 24r13 26r40
+26V18 stringify_tree[48|180]{13|79R9} 163s16
+29p9 t{48|12P10[23]} 37m9 38r31 42r25 49r29 57r31 65r31 73r35 75r34 82m24
+. 82r24 83r34 90r19 102r24 105r24 114r34 126m24 126r24 127r34 131r21 135r21
+. 139r21 146m24 146r24 147r31 155r26 163r31 170r25 172r25 172r28 179m20 179r20
+. 180r27
+30p9 t2{48|12P10[23]} 44r25 51r29 59r31 67r31 93r19 118r24 170r28
+31p9 sub_t{48|12P10[23]} 73m9 74r27 75m9 76r31 83m9 84r31 114m9 115r25 127m9
+. 128m24 128r24
+32b9 b{boolean} 42m9 43r16 44m9 45r16 65m9 66r16 67m9 68r16 170m9 171r20
+. 172m9 173r16
+33i9 depth{integer} 49m9 50r16 51m9 52r16
+33i16 length{integer} 57m9 58r16 59m9 60r16 147m9 148r16
+33i24 num{integer} 155m9 156r16
+34r9 str{13|79R9} 163m9 164r50
+X 48 tree_bin.ads
+8+10 T_Element 47|23r42
+9U20 show 47|23r63
+10V19 id_el{integer} 47|23r80
+11k9*Tree_Bin 46|7w6 47|23r33 48|206e13
+12P10 T_Tree 47|29r12[23] 30r13[23] 31r16[23]
+24V14 init_tree{12P10[47|23]} 47|37s14[23]
+34V14 empty_tree{boolean} 47|38s20[23] 42s14[23] 44s14[23] 74s16[23] 76s20[23]
+. 84s20[23] 180s16[23]
+44V14 tree_depth{integer} 47|49s18[23] 51s18[23]
+54V14 tree_length{integer} 47|57s19[23] 59s19[23] 147s19[23]
+65V14 exist_el_tree{boolean} 47|65s14[23] 67s14[23]
+76V14 find_el_tree{12P10[47|23]} 47|73s18[23] 75s18[23] 83s18[23] 114s18[23]
+. 127s18[23]
+87U15 add_el_tree 47|82s9[23] 126s9[23] 128s9[23]
+99U15 show_tree 47|90s9[23] 93s9[23]
+111U15 show_ancestors 47|102s9[23] 105s9[23] 118s9[23]
+123U15 show_descendant 47|115s9[23]
+134U15 filter_tree 47|131s9[23] 135s9[23] 139s9[23]
+145U15 delete_tree 47|146s9[23]
+155U15 clear_tree 47|179s9[23]
+165V14 root_tree{integer} 47|155s16[23]
+179V23 stringify_el{13|79R9} 47|27r5[23]
+180v14 stringify_tree 47|26r49[23]
+192V14 equal_tree{boolean} 47|170s14[23] 172s14[23]
+

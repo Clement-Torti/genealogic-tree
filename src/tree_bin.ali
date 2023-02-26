@@ -1,0 +1,183 @@
+V "GNAT Lib v7"
+A -gnata
+A -gnatwa
+A -gnata
+A -g
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U tree_bin%b		tree_bin.adb		b7ff9b86 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W utils%s		utils.adb		utils.ali
+
+U tree_bin%s		tree_bin.ads		fa5611ed BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20161012122725 ecdfa332 ada.strings.unbounded%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D tree_bin.ads		20210112081919 1689b2df tree_bin%s
+D tree_bin.adb		20210113074218 3af6ebcd tree_bin%b
+D utils.ads		20210111140017 d2698475 utils%s
+X 1 ada.ads
+16K9*Ada 20e8 39|4r6 4r33 40|5r6 5r23 6r6 6r31 7r6 7r29 9r6 9r34
+X 2 a-charac.ads
+16K13*Characters 18e19 40|9r10 9r38
+X 3 a-chlat1.ads
+18K24*Latin_1 296e27 40|9w21 9r49
+35e4*LF{character} 40|246r13
+X 6 a-flteio.ads
+20K13*Float_Text_IO[15|46] 40|7w10 7r33
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[16|46] 40|6w10 6r35
+X 10 a-string.ads
+16K13*Strings 35e16 39|4r10 4r37
+X 12 a-strunb.ads
+76K21*Unbounded 490e26 39|4w18 4r45
+79R9*Unbounded_String<5|43R9> 474e14 39|179r86 180r84 40|237r85
+94V13*To_Unbounded_String{79R9} 40|240s20 244s16
+100V13*To_String{string} 40|245s13 247s13 248s13
+X 14 a-textio.ads
+49K13*Text_IO 471e16 40|5w10 5r27
+242U14*Put 40|122s17 131s13
+263U14*Put_Line 40|105s27 125s13 126s13
+X 39 tree_bin.ads
+8+10 T_Element 9r32 10r32 24r28 87r34 165r48 179r43 200r13 40|14r28 86r34
+. 231r48 254r19 255r20
+9U20 show 9>25 9>43 40|134s9 155s13 172s13 198s13
+9*25 el{8+10}
+9b43 parent{boolean}
+10V19 id_el{integer} 10>25 40|69s13 215s13 247s50 248s50 268s16 268s34
+10*25 el{8+10}
+11k9*Tree_Bin 8z10 9z20 10z19 195E10 206l5 206e13 40|12b14 270l5 270t13
+12P10*T_Tree 24r46 34r34 44r34 54r35 65r53 76r52 76r67 87r58 98r34 99r34
+. 111r39 123r40 134r36 145r56 155r39 165r33 180r38 192r33 197c10 201r12 202r12
+. 203r13 40|14r46 15r15 26r34 32r34 43r35 54r53 60r52 60r67 61r12 86r58 87r12
+. 109r34 141r34 147r39 164r40 179r36 207r56 225r39 231r33 237r39 253r33
+13X5*ABSENT_KEY
+14X5*FULL_NODE 40|101r19 105r14
+24V14*init_tree{12P10} 24>24 40|14b14 23l9 23t18
+24*24 el{8+10} 40|14b24 20r24
+34V14*empty_tree{boolean} 34>25 87s81 165s73 40|26b14 29l9 29t19 257s13 257s30
+. 261s13
+34p25 tree{12P10} 40|26b25 28r16
+44V14*tree_depth{integer} 44>25 40|32b14 39s24 39s48 40l9 40t19 120s22
+44p25 tree{12P10} 40|32b25 35r13 39r35 39r59
+54V14*tree_length{integer} 54>26 40|43b14 50s20 50s46 51l9 51t20
+54p26 tree{12P10} 40|43b26 46r13 50r32 50r58
+65V14*exist_el_tree{boolean} 65>28 65>44 40|54b14 57t8
+65i28 id{integer} 40|54b28 56r29
+65p44 tree{12P10} 40|54b44 56r33
+76V14*find_el_tree{12P10} 76>27 76>43 40|56s16 60b14 74s14 80s20 83l9 83t21
+76i27 id{integer} 40|60b27 69r34 74r27 80r33
+76p43 tree{12P10} 40|60b43 64r13 69r19 70r20 74r31 80r37
+87U15*add_el_tree 87>27 87=45 40|86b15 106l9 106t20
+87*27 el{8+10} 40|86b27 90r21
+87p45 tree{12P10} 87r92 40|86b45 91r21 94r13 95r13 97r16 98r13
+98U15*show_tree 98>25 98>42 40|109b15 136s9 137s9 138l9 138t18 143s9
+98p25 tree{12P10} 40|109b25 113r13 120r33 134r14 136r19 137r19
+98i42 cur_gen{integer} 40|109b42 118r13 130r21 134r27 136r31 137r31
+99U15*show_tree 99>25 40|141b15 144l9 144t18
+99p25 tree{12P10} 40|141b25 143r19
+111U15*show_ancestors 111>30 111>47 111>71 40|147b15 158s9 159s9 161l9 161t23
+111p30 tree{12P10} 40|147b30 150r13 155r18 158r24 159r24
+111i47 generation{integer} 40|147b47 154r23 154r37 158r36 159r36
+111i71 cur_gen{integer} 40|147b71 154r13 158r48 159r48
+123U15*show_descendant 123>31 123>48 123>72 40|164b15 175s9 176l9 176t24
+123p31 tree{12P10} 40|164b31 167r13 172r18 175r25
+123i48 descendant{integer} 40|164b48 171r24 171r38 175r38
+123i72 cur_desc{integer} 40|164b72 171r13 175r50
+134U15*filter_tree 134>27 134>44 40|179b15 202s9 203s9 204l9 204t20
+134p27 tree{12P10} 40|179b27 183r13 188r13 192r13 198r18 202r21 203r21
+134i44 nb_parent{integer} 134r78 134r97 40|179b44 197r18 202r33 203r33
+145U15*delete_tree 145>27 145=43 40|207b15 220s9 221s9 222l9 222t20
+145i27 id{integer} 40|207b27 215r34 220r21 221r21
+145p43 tree{12P10} 40|207b43 210r13 215r19 216m13 220r25 221r25
+155U15*clear_tree 155=26 40|225b15 228t8
+155p26 tree{12P10} 40|225b26 227m9
+165V14*root_tree{8+10} 165>24 40|231b14 234l9 234t18 265s21 266s22
+165p24 tree{12P10} 165r84 40|231b24 233r16
+179V23 stringify_el{12|79R9} 179>36 179>54 40|245s23
+179*36 el{8+10}
+179i54 ancestor_id{integer}
+180v14*stringify_tree 180>29 180>46 40|237b15 247s23 248s23 250l9 250t23
+180p29 tree{12P10} 40|237b30 239r13 245r36 247r38 247r56 248r38 248r56
+180i46 ancestor_id{integer} 40|237b47 245r49
+192V14*equal_tree{boolean} 192>25 192>27 40|253b14 269l9 269t19
+192p25 g{12P10} 40|253b25 257r24 261r24 265r31
+192p27 d{12P10} 40|253b27 257r41 266r32
+195R10 T_Node 197r27 199c10 204e15 40|18r21 89r18
+200*9 el{8+10} 40|20m18 69r28 90m15 134r23 155r27 172r27 198r27 215r28 233r25
+. 245r45 247r65 248r65
+201p9 l{12P10} 40|39r44 50r41 74r40 94r22 95m22 136r28 158r33 188r22 202r30
+. 220m34 247r47
+202p9 r{12P10} 40|39r68 50r67 80r46 97r25 98m22 137r28 159r33 192r22 203r30
+. 221m34 248r47
+203p9 up{12P10} 40|91m15 175r34
+X 40 tree_bin.adb
+15p9 tree{39|12P10} 18m9 20r9 22r16
+61p9 t{39|12P10} 74m9 76r13 77r20
+87p9 t{39|12P10} 89m9 90r9 91r9 95r27 98r27
+110i9 depth{integer} 120m13 121r25
+121i17 i{integer} 122r35
+130i13 i{integer}
+180i9 nb{integer} 189m13 189r19 193m13 193r19 197r13
+254*9 rootLeft{39|8+10} 265m9 268r22
+255*9 rootRight{39|8+10} 266m9 268r40
+X 41 utils.ads
+6K9*Utils 40|8w6 8r17 41|26e10
+25V14*max{integer} 40|39s20
+
